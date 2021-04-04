@@ -1,0 +1,48 @@
+a,
+body,
+ button,
+div,
+fieldset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+p,
+section,
+select,
+textarea,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  border: none;
+  background-color: transparent;
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+}
+
+textarea:active {
+  outline: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
