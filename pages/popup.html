@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOO-online</title>
+    <link rel="shortcut icon" href="../assets/icons/favicon.ico">
+    <link rel="stylesheet" href="../css/reset.css" media="screen">
+    <link rel="stylesheet" href="../css/general_styles.css" media="screen">
+    <link rel="stylesheet" href="popup.css" media="screen">
+  </head>
+  <body class="body">
+  <section class="popup-block__wrapper">
+    <form class="popup-block">
+      <h3 class="popup-block__heading">donate for your animal</h3>
+      <section class="popup-block__form-wrapper l-flex">
+        <div class="popup-block__form left-form">
+          <fieldset class="popup-block__fieldset">
+            <legend class="popup-block__legend">Choose an animal</legend>
+            <select class="popup-block__select">
+              <option disabled></option>
+              <option>Panda</option>
+              <option>Lion</option>
+              <option>Zebra</option>
+              <option>Chupakabra</option>
+            </select>
+          </fieldset>
+          <h5 class="popup-block__subheading">About you</h5>
+          <fieldset class="popup-block__fieldset">
+            <legend class="popup-block__legend">Name</legend>
+            <input class="popup-block__input" type="text">
+          </fieldset>
+          <fieldset class="popup-block__fieldset">
+            <legend class="popup-block__legend">Email</legend>
+            <input class="popup-block__input" type="email">
+          </fieldset>
+          <fieldset class="popup-block__fieldset">
+            <legend class="popup-block__legend">Phone</legend>
+            <select class="popup-block__select phone-number" >
+              <option>+7</option>
+              <option>+375</option>
+              <option>+123</option>
+            </select>
+            <input class="popup-block__input phone-number" type="text">
+          </fieldset>
+        </div>
+          <div class="popup-block__form right-form">
+            <fieldset class="popup-block__fieldset">
+              <legend class="popup-block__legend">To donate</legend>
+              <input class="popup-block__input" type="text">
+            </fieldset>
+            <h5 class="popup-block__subheading">Checkout</h5>
+            <fieldset class="popup-block__fieldset">
+              <legend class="popup-block__legend">Card number</legend>
+              <input class="popup-block__input" type="text">
+            </fieldset>
+            <fieldset class="popup-block__fieldset">
+              <legend class="popup-block__legend">Expiry date</legend>
+              <select class="popup-block__select expiry-date month">
+                <option disabled></option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+              <select class="popup-block__select expiry-date">
+                <option disabled></option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+              </select>
+            </fieldset>
+            <fieldset class="popup-block__fieldset">
+              <legend class="popup-block__legend">CVC</legend>
+              <input class="popup-block__input" type="text">
+            </fieldset>
+        </div>
+      </section>
+      <p class="popup-block__text">
+        If don't cancel your subscription before the trial ands on
+        <span id="subscription-date">April 21, 2021</span>, you agree that you will automatically be charged
+      </p>
+      <button class="content-block__btn">donate</button>
+    </form>
+  </section>
+  </body>
+</html>
