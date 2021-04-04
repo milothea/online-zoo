@@ -1,0 +1,69 @@
+.animal-choice {
+  height: 80.45rem;
+}
+
+.animal-choice .content-block__heading {
+  padding-top: 3.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.animal-choice .content-block__text {
+  display: block;
+  width: 49.375rem;
+  margin: 0 auto;
+}
+
+.animal-choice__slides.l-flex {
+  width: 74.938rem;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 3.1rem;
+}
+
+.animal-choice__slide {
+  width: 6.75rem;
+  height: 6.75rem;
+  background-size: 120%;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.animal-choice__slide[data-slide="1"] { background-image: url("../assets/images/monkey-2.jpg"); }
+.animal-choice__slide[data-slide="2"] {
+  background-image: url("../assets/icons/picture_active.svg");
+  background-size: 100%;
+}
+.animal-choice__slide[data-slide="3"] { background-image: url("../assets/images/crocodile.jpg"); }
+.animal-choice__slide[data-slide="4"] { background-image: url("../assets/images/eagle.jpg"); }
+.animal-choice__slide[data-slide="5"] { background-image: url("../assets/images/tiger.jpg"); }
+.animal-choice__slide[data-slide="6"] { background-image: url("../assets/images/elephant.jpg"); }
+.animal-choice__slide[data-slide="7"] { background-image: url("../assets/images/lion.jpg"); }
+.animal-choice__slide[data-slide="8"] {
+  background-image: url("../assets/images/zebra.jpg");
+}
+
+.animal-choice__slide__active {
+  width: 9.813rem;
+  height: 9.813rem;
+}
+
+.animal-choice__slide__active-helper {
+  display: block;
+  width: 8.563rem;
+  height: 8.563rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  padding-top: .7rem;
+}
+
+.animal-choice__map {
+  width: 75rem;
+  height: 31.125rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 2.9rem;
+  background-image: url("../assets/images/map.svg");
+}
+
