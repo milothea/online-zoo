@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="eng" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOO-online</title>
+    <link rel="shortcut icon" href="../../assets/icons/favicon.ico">
+    <link rel="stylesheet" href="../../css/reset.css" media="screen">
+    <link rel="stylesheet" href="../../css/general_styles.css" media="screen">
+    <link rel="stylesheet" href="../intermediatepage.css" media="screen">
+  </head>
+  <body id="map">
+    <header class="header l-flex">
+    <a class="header__logo logo" href="../../index.html#about">
+      <h1 class="main-heading">Online Zoo</h1>
+    </a>
+    <nav class="header__nav">
+      <ul class="header__nav-list l-flex">
+        <li class="nav-element">
+          <a href="../../index.html#about">About</a>
+        </li>
+        <li class="nav-element">
+          <a href="live_broadcast_panda.html">Zoos</a>
+        </li>
+        <li class="nav-element__active">
+          <a href="#map">Map</a>
+        </li>
+        <li class="nav-element">
+          <a href="#contact-form">Contact Us</a>
+        </li>
+        <li class="nav-element">
+          <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp"rel="noopener noreferrer">Design</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__theme-toggle">
+      <div class="header__theme-toggler"></div>
+    </div>
+  </header>
+
+    <section class="content-block-wrapper animal-choice">
+      <h2 class="content-block__heading">Choose your favorite</h2>
+      <p class="content-block__text">
+        As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species
+        and their habitat, and we are determined to assist in all aspects, including providing veterinary support and
+        raising much-needed emergency funds. Zoo Online saves wildlife and inspires everyone to make conservation a
+        priority in their lives. Animals have the right to a pain-free and happy life. They have equal claim to the
+        resources of this planet, and deserve a life of dignity and compassion.As a voice for wildlife, we are
+        devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.
+      </p>
+      <section class="animal-choice__slider">
+        <div class="animal-choice__slides l-flex">
+          <div class="slider__arrow-toggle left-arrow-toggle"></div>
+          <div class="animal-choice__slide slider__slide__visible" data-slide="1"></div>
+          <div class="animal-choice__slide slider__slide__visible animal-choice__slide__active" data-slide="2">
+            <img class="animal-choice__slide__active-helper" src="../../assets/images/panda.jpg" alt="panda!">
+          </div>
+          <div class="animal-choice__slide slider__slide__visible" data-slide="3"></div>
+          <div class="animal-choice__slide slider__slide__visible" data-slide="4"></div>
+          <div class="animal-choice__slide" data-slide="5"></div>
+          <div class="animal-choice__slide" data-slide="6"></div>
+          <div class="animal-choice__slide" data-slide="7"></div>
+          <div class="animal-choice__slide" data-slide="8"></div>
+          <div class="slider__arrow-toggle right-arrow-toggle"></div>
+        </div>
+        <div class="slider__counter">
+          <span class="slider__count-current">02/</span><span class="slider__count-total">08</span>
+        </div>
+        <div class="slider__toggle">
+          <div class="slider__toggle-bg"></div>
+          <div class="slider__toggler-long"></div>
+        </div>
+      </section>
+      <section class="animal-choice__map-wrapper">
+        <div class="map-block__map">
+          <div class="map-block__map-flag" data-flag="1" title="Eagle">
+            <img class="map-flag__img" src="../../assets/images/eagle.jpg" alt="eagle photo" title="Eagle">
+          </div>
+          <div class="map-block__map-flag" data-flag="2" title="Alligator">
+            <img class="map-flag__img" src="../../assets/images/crocodile.jpg" alt="alligator photo" title="Alligator">
+          </div>
+          <div class="map-block__map-flag" data-flag="3" title="Gorilla">
+            <img class="map-flag__img" src="../../assets/images/monkey-2.jpg" alt="gorilla photo" title="Gorilla">
+          </div>
+          <div class="map-block__map-flag" data-flag="4" title="Panda">
+            <img class="map-flag__img" src="../../assets/images/panda.jpg" alt="panda photo" title="Panda">
+          </div>
+        </div>
+        <a class="content-block__btn" href="live_broadcast_panda.html">
+          <svg class="content-block__btn-svg" width="167" height="32" viewBox="0 0 167 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="15.5" stroke="white"/>
+            <path d="M21 16L13.5 20.3301V11.6699L21 16Z" fill="white"/>
+            <path d="M48.1318 18.2275L49.5996 10.2031H52.6582L49.9424 23H46.7432L45.0293 15.7051L43.3506 23H40.1602L37.4355 10.2031H40.5029L41.9707 18.2275L43.7285 10.2031H46.3477L48.1318 18.2275ZM60.7441 20.6094H56.5166L55.7783 23H52.4824L57.1758 10.2031H60.0762L64.8047 23H61.4912L60.7441 20.6094ZM57.2549 18.2275H60.0059L58.626 13.7891L57.2549 18.2275ZM74.7363 12.585H70.8955V23H67.8105V12.585H64.04V10.2031H74.7363V12.585ZM86.1533 18.667C86.1123 19.5576 85.8721 20.3457 85.4326 21.0312C84.9932 21.7109 84.375 22.2383 83.5781 22.6133C82.7871 22.9883 81.8818 23.1758 80.8623 23.1758C79.1807 23.1758 77.8564 22.6279 76.8896 21.5322C75.9229 20.4365 75.4395 18.8896 75.4395 16.8916V16.2588C75.4395 15.0049 75.6562 13.9092 76.0898 12.9717C76.5293 12.0283 77.1592 11.3018 77.9795 10.792C78.7998 10.2764 79.749 10.0186 80.8271 10.0186C82.3799 10.0186 83.6279 10.4287 84.5713 11.249C85.5146 12.0635 86.0508 13.1885 86.1797 14.624H83.1035C83.0801 13.8447 82.8838 13.2852 82.5146 12.9453C82.1455 12.6055 81.583 12.4355 80.8271 12.4355C80.0596 12.4355 79.4971 12.7227 79.1396 13.2969C78.7822 13.8711 78.5947 14.7881 78.5771 16.0479V16.9531C78.5771 18.3184 78.7471 19.2939 79.0869 19.8799C79.4326 20.4658 80.0244 20.7588 80.8623 20.7588C81.5713 20.7588 82.1133 20.5918 82.4883 20.2578C82.8633 19.9238 83.0625 19.3936 83.0859 18.667H86.1533ZM98.3086 23H95.2412V17.6562H90.6973V23H87.6123V10.2031H90.6973V15.2832H95.2412V10.2031H98.3086V23ZM115.588 16.8652C115.588 18.1133 115.356 19.2178 114.894 20.1787C114.431 21.1396 113.771 21.8809 112.916 22.4023C112.066 22.918 111.097 23.1758 110.007 23.1758C108.917 23.1758 107.95 22.9268 107.106 22.4287C106.263 21.9248 105.604 21.207 105.129 20.2754C104.66 19.3438 104.414 18.2744 104.391 17.0674V16.3467C104.391 15.0928 104.619 13.9883 105.076 13.0332C105.539 12.0723 106.198 11.3311 107.054 10.8096C107.915 10.2881 108.894 10.0273 109.989 10.0273C111.073 10.0273 112.04 10.2852 112.89 10.8008C113.739 11.3164 114.398 12.0518 114.867 13.0068C115.342 13.9561 115.582 15.0459 115.588 16.2764V16.8652ZM112.45 16.3291C112.45 15.0576 112.236 14.0938 111.809 13.4375C111.387 12.7754 110.78 12.4443 109.989 12.4443C108.442 12.4443 107.625 13.6045 107.537 15.9248L107.528 16.8652C107.528 18.1191 107.736 19.083 108.152 19.7568C108.568 20.4307 109.187 20.7676 110.007 20.7676C110.786 20.7676 111.387 20.4365 111.809 19.7744C112.23 19.1123 112.444 18.1602 112.45 16.918V16.3291ZM127.866 23H124.799L120.264 15.0371V23H117.179V10.2031H120.264L124.79 18.166V10.2031H127.866V23ZM132.902 20.627H138.272V23H129.817V10.2031H132.902V20.627ZM142.86 23H139.784V10.2031H142.86V23ZM155.692 23H152.625L148.09 15.0371V23H145.005V10.2031H148.09L152.616 18.166V10.2031H155.692V23ZM165.58 17.5771H160.729V20.627H166.459V23H157.644V10.2031H166.477V12.585H160.729V15.2832H165.58V17.5771Z" fill="white"/>
+          </svg>
+        </a>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <section class="footer__content-wrapper l-flex">
+        <section class="footer__contact-form-wrapper" id="contact-form">
+          <a class="footer__logo logo" href="../../index.html#about" title="Online Zoo"></a>
+          <div class="footer__contact-form">
+            <h4 class="content-block__subheading">Contact Us</h4>
+            <input class="footer__input" type="text" placeholder="Name" required>
+            <input class="footer__input" type="email" placeholder="Email" required>
+            <fieldset class="footer__fieldset">
+              <legend class="footer__fieldset-legened">Please enter your message</legend>
+              <textarea class="footer__textarea" type="text" maxlength="280" required></textarea>
+            </fieldset>
+            <input class="footer__input checkbox" id="personal-data" type="checkbox" required>
+            <label class="footer__label" for="personal-data">I agree to the processing of Personal Data</label>
+            <button class="footer__btn l-flex" type="submit">
+              <span>send</span>
+              <svg width="49" height="8" viewBox="0 0 49 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M48.3536 4.35355C48.5488 4.15829 48.5488 3.84171 48.3536 3.64645L45.1716 0.464466C44.9763 0.269204 44.6597 0.269204 44.4645 0.464466C44.2692 0.659728 44.2692 0.976311 44.4645 1.17157L47.2929 4L44.4645 6.82843C44.2692 7.02369 44.2692 7.34027 44.4645 7.53553C44.6597 7.7308 44.9763 7.7308 45.1716 7.53553L48.3536 4.35355ZM0 4.5L48 4.5V3.5L0 3.5L0 4.5Z" fill="#FEFEFE"/>
+              </svg>
+            </button>
+          </div>
+        </section>
+        <section class="footer__nav-wrapper">
+          <div class="footer__nav l-flex">
+            <ul class="footer__nav-list l-flex">
+              <li class="footer__nav-elem nav-element">
+                <a href="../../index.html#about" rel="noopener noreferrer">About</a>
+              </li>
+              <li class="footer__nav-elem nav-element">
+                <a href="live_broadcast_panda.html">Zoos</a>
+              </li>
+              <li class="footer__nav-elem nav-element">
+                <a href="#map" rel="noopener noreferrer">Map</a>
+              </li>
+              <li class="footer__nav-elem nav-element">
+                <a  href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp"
+                    rel="noopener noreferrer">Design</a>
+              </li>
+            </ul>
+            <button class="content-block__btn">donate for volunteers</button>
+          </div>
+          <div>
+            <h5 class="footer__heading">zoo online centre</h5>
+            <address class="footer__address">
+              132, Address District, Street
+              Open Daily 10:00 am — 5:00 pm
+            </address>
+            <p class="footer__contact-details">
+              T<a href="tel:+7021633433" rel="noopener noreferrer">(702) 163-3433</a>
+              <a href="mailto:zoo.oline@gmail.com" rel="noopener noreferrer">zoo.oline@gmail.com</a>
+            </p>
+            <ul class="footer__social-network-links l-flex">
+
+              <li class="social-network-link instagram">
+                <a class="social-network-link" href="https://instagram.com"
+                   rel="noopener noreferrer"></a>
+              </li>
+              <li class="social-network-link twitter">
+                <a class="social-network-link" href="https://twitter.com"
+                   rel="noopener noreferrer"></a>
+              </li>
+              <li class="social-network-link vkontakte">
+                <a class="social-network-link" href="https://vk.com"
+                   rel="noopener noreferrer"></a>
+              </li>
+              <li class="social-network-link youtube">
+                <a class="social-network-link" href="https://youtube.com"
+                   rel="noopener noreferrer"></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section class="footer__copyright-info">
+        <a class="footer__copyright-info-link"
+           href="https://www.behance.net/noora_design"
+           rel="noopener noreferrer"
+           title="Noora Sagnayeva's Behance account">©Noora Sagnayeva</a>
+        <div class="footer__copyright-info-link-wrapper l-flex">
+          <div class="footer__copyright-info-link"
+             title="Rolling Scopes School">©RSSchool and</div>
+          <div class="footer__copyright-info-link"
+             title="Yem Digital"> ©Yem Digital - 2021</div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
