@@ -5,23 +5,24 @@
     <meta http-equiv="x-ua-compatible" content="ie-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZOO-online</title>
-    <link rel="shortcut icon" href="../../assets/icons/favicon.ico">
-    <link rel="stylesheet" href="../../css/reset.css" media="screen">
-    <link rel="stylesheet" href="../../css/general_styles.css" media="screen">
-    <link rel="stylesheet" href="../intermediatepage.css" media="screen">
+    <link rel="shortcut icon" href="../assets/icons/favicon.ico">
+    <link rel="stylesheet" href="../css/reset.css" media="screen">
+    <link rel="stylesheet" href="../css/general_styles.css" media="screen">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="intermediatepage.css" media="screen">
   </head>
   <body id="map">
     <header class="header l-flex">
-    <a class="header__logo logo" href="../../index.html#about">
+    <a class="header__logo logo" href="../index.html#about">
       <h1 class="main-heading">Online Zoo</h1>
     </a>
     <nav class="header__nav">
       <ul class="header__nav-list l-flex">
         <li class="nav-element">
-          <a href="../../index.html#about">About</a>
+          <a href="../index.html#about">About</a>
         </li>
         <li class="nav-element">
-          <a href="live_broadcast_panda.html">Zoos</a>
+          <a href="zoos/panda.html">Zoos</a>
         </li>
         <li class="nav-element__active">
           <a href="#map">Map</a>
@@ -52,16 +53,45 @@
       <section class="animal-choice__slider">
         <div class="animal-choice__slides l-flex">
           <div class="slider__arrow-toggle left-arrow-toggle"></div>
-          <div class="animal-choice__slide slider__slide__visible" data-slide="1"></div>
-          <div class="animal-choice__slide slider__slide__visible animal-choice__slide__active" data-slide="2">
-            <img class="animal-choice__slide__active-helper" src="../../assets/images/panda.jpg" alt="panda!">
+          <div class="animal-choice__slide slider__slide__visible" data-slide="1">
+            <a href="zoos/gorilla.html">
+              <img class="animal-choice__slide-helper" src="../assets/images/monkey-2.jpg" alt="Gorilla">
+            </a>
           </div>
-          <div class="animal-choice__slide slider__slide__visible" data-slide="3"></div>
-          <div class="animal-choice__slide slider__slide__visible" data-slide="4"></div>
-          <div class="animal-choice__slide" data-slide="5"></div>
-          <div class="animal-choice__slide" data-slide="6"></div>
-          <div class="animal-choice__slide" data-slide="7"></div>
-          <div class="animal-choice__slide" data-slide="8"></div>
+          <div class="animal-choice__slide slider__slide__visible animal-choice__slide__active" data-slide="2">
+            <a href="zoos/panda.html">
+              <img class="animal-choice__slide-helper" src="../assets/images/panda.jpg" alt="Panda">
+            </a>
+          </div>
+          <div class="animal-choice__slide slider__slide__visible" data-slide="3">
+            <a href="zoos/alligator.html">
+              <img class="animal-choice__slide-helper" src="../assets/images/crocodile.jpg" alt="Gorilla">
+            </a>
+          </div>
+          <div class="animal-choice__slide slider__slide__visible" data-slide="4">
+            <a href="zoos/eagle.html">
+              <img class="animal-choice__slide-helper" src="../assets/images/eagle.jpg" alt="Eagle">
+            </a>
+          </div>
+          <div class="animal-choice__slide" data-slide="5">
+            <a href="#">
+              <img class="animal-choice__slide-helper" src="../assets/images/tiger.jpg" alt="Tiger">
+            </a></div>
+          <div class="animal-choice__slide" data-slide="6">
+            <a href="#">
+              <img class="animal-choice__slide-helper" src="../assets/images/elephant.jpg" alt="Elephant">
+            </a>
+          </div>
+          <div class="animal-choice__slide" data-slide="7">
+            <a href="#">
+              <img class="animal-choice__slide-helper" src="../assets/images/lion.jpg" alt="Lion">
+            </a>
+          </div>
+          <div class="animal-choice__slide" data-slide="8">
+            <a href="#">
+              <img class="animal-choice__slide-helper" src="../assets/images/zebra.jpg" alt="Zebra">
+            </a>
+          </div>
           <div class="slider__arrow-toggle right-arrow-toggle"></div>
         </div>
         <div class="slider__counter">
@@ -75,19 +105,19 @@
       <section class="animal-choice__map-wrapper">
         <div class="map-block__map">
           <div class="map-block__map-flag" data-flag="1" title="Eagle">
-            <img class="map-flag__img" src="../../assets/images/eagle.jpg" alt="eagle photo" title="Eagle">
+            <img class="map-flag__img" src="../assets/images/eagle.jpg" alt="eagle photo" title="Eagle">
           </div>
           <div class="map-block__map-flag" data-flag="2" title="Alligator">
-            <img class="map-flag__img" src="../../assets/images/crocodile.jpg" alt="alligator photo" title="Alligator">
+            <img class="map-flag__img" src="../assets/images/crocodile.jpg" alt="alligator photo" title="Alligator">
           </div>
           <div class="map-block__map-flag" data-flag="3" title="Gorilla">
-            <img class="map-flag__img" src="../../assets/images/monkey-2.jpg" alt="gorilla photo" title="Gorilla">
+            <img class="map-flag__img" src="../assets/images/monkey-2.jpg" alt="gorilla photo" title="Gorilla">
           </div>
           <div class="map-block__map-flag" data-flag="4" title="Panda">
-            <img class="map-flag__img" src="../../assets/images/panda.jpg" alt="panda photo" title="Panda">
+            <img class="map-flag__img" src="../assets/images/panda.jpg" alt="panda photo" title="Panda">
           </div>
         </div>
-        <a class="content-block__btn" href="live_broadcast_panda.html">
+        <a class="content-block__btn" href="zoos/panda.html">
           <svg class="content-block__btn-svg" width="167" height="32" viewBox="0 0 167 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="16" cy="16" r="15.5" stroke="white"/>
             <path d="M21 16L13.5 20.3301V11.6699L21 16Z" fill="white"/>
@@ -100,13 +130,13 @@
     <footer class="footer">
       <section class="footer__content-wrapper l-flex">
         <section class="footer__contact-form-wrapper" id="contact-form">
-          <a class="footer__logo logo" href="../../index.html#about" title="Online Zoo"></a>
+          <a class="footer__logo logo" href="../index.html#about" title="Online Zoo"></a>
           <div class="footer__contact-form">
             <h4 class="content-block__subheading">Contact Us</h4>
             <input class="footer__input" type="text" placeholder="Name" required>
             <input class="footer__input" type="email" placeholder="Email" required>
-            <fieldset class="footer__fieldset">
-              <legend class="footer__fieldset-legened">Please enter your message</legend>
+            <fieldset class="footer__fieldset textarea-fieldset">
+              <legend class="footer__fieldset-legend">Please enter your message</legend>
               <textarea class="footer__textarea" type="text" maxlength="280" required></textarea>
             </fieldset>
             <input class="footer__input checkbox" id="personal-data" type="checkbox" required>
@@ -123,10 +153,10 @@
           <div class="footer__nav l-flex">
             <ul class="footer__nav-list l-flex">
               <li class="footer__nav-elem nav-element">
-                <a href="../../index.html#about" rel="noopener noreferrer">About</a>
+                <a href="../index.html#about" rel="noopener noreferrer">About</a>
               </li>
               <li class="footer__nav-elem nav-element">
-                <a href="live_broadcast_panda.html">Zoos</a>
+                <a href="zoos/panda.html">Zoos</a>
               </li>
               <li class="footer__nav-elem nav-element">
                 <a href="#map" rel="noopener noreferrer">Map</a>
